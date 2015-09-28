@@ -1,0 +1,95 @@
+harddrive1.arff - Hard drive failure prediction/SMART data set
+
+
+Contributed by:  Joseph Murray   (jfmurray@jfmurray.org)
+                 Gordon Hughes   (gfhughes@ucsd.edu)
+                 Kenneth Kreutz-Delgado   (kreutz@ece.ucsd.edu)
+
+                 Center for Magnetic Recording Research (CMRR)
+                 University of California, San Diego
+
+                 April 4, 2005
+
+Data set and references available at:
+
+    http://cmrr.ucsd.edu/smart/
+    http://jfmurray.org
+
+If you use this data set, we ask that you cite:
+
+ J. F. Murray, G. F. Hughes, K. Kreutz-Delgado
+     "Comparison of machine learning methods for predicting failures in hard
+     drives"
+     Journal of Machine Learning Research, vol 6, 2005.
+
+    (Available online at http://jmlr.org)
+
+---- SMART data set description:
+
+Each line in the data section contains the data from one SMART read (2 hour
+time frame), with the last column either 1 (for drives that eventually failed)
+or 0 (for drives that were good throughout testing).
+
+The text file format used is the Attribute Relation File Format (ARFF) (see
+http://www.cs.waikato.ac.nz/~ml/weka/arff.html), which is a simple and
+standard format that can be used by publicly-available machine learning
+software (such as Weka, http://www.cs.waikato.ac.nz/~ml/weka/).
+
+Please see the references below for more details about the data set.
+
+---- Hints:
+
+Hard drives are reliable devices: the true yearly failure rate is about
+0.3% to 3.0%, and so any failure prediction algorithm must be very
+resistant to false alarms (i.e. predicting a failure for a drive that is
+actually working well).  Hard drive manufacturers need SMART algorithms
+that have about 0.1% false alarm rate.
+
+An important part of any machine learning method for SMART is controlling
+the false alarm rate and finding the tradeoff between FA rate and correct
+failure detections.  Using classifiers with cost-sensitivity is important
+so that the cost of FA's can be weighed highly and reduced.
+
+Since this data set (harddrive1.arff) is relatively small with 178 good
+drives, we are mainly interested in finding the detection rate between 0.0%
+and 0.56% FA, although it is useful to make an ROC curve up to about 3%
+FA's.
+
+Many of the attributes are nonparametrically distributed.  Many attributes
+will have a large number of zero-counts.  Standard scaling techniques may
+not give useful results.
+
+Early samples in the time history of the drives may contain some garbage,
+be wary of samples with low Hours (<~ 10 hours).
+
+It is unknown how many hours in advance an impending failure can be
+detected.  A number of techniques can be used to deal with this.  During
+training, data from good drives can be used to make a model of normal drive
+behavior, and during testing, we can perform anomaly detection from this
+model.  Another option is to use the Multiple-Instance Framework, which
+attempts to label each pattern from a failed drive as being representative
+of either a good or failing drive operation.
+
+
+---- References:
+
+Joseph F. Murray, Gordon F. Hughes, Kenneth Kreutz-Delgado
+     "Comparison of machine learning methods for predicting failures in hard
+     drives"
+     Journal of Machine Learning Research, vol 6, 2005.
+
+Joseph F. Murray, Gordon F. Hughes, and Kenneth Kreutz-Delgado.
+    "Hard drive failure prediction using non-parametric statistical
+    methods."
+    In Proceedings of the International Conference on Artificial
+    Neural Networks (ICANN) 2003, Istanbul, Turkey, June 2003.
+
+Gordon F. Hughes, Joseph F. Murray, Kenneth Kreutz-Delgado, and Charles Elkan.
+    "Improved disk-drive failure warnings."
+    IEEE Transactions on Reliability, vol. 51 no. 3
+    pages 350-357, September 2002.
+
+Greg Hamerly and Charles Elkan.
+    "Bayesian approaches to failure prediction for disk drives."
+    In Eighteenth International Conference on Machine Learning (ICML 2001),
+    pages 1-9, 2001.
