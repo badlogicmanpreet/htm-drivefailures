@@ -1,5 +1,5 @@
 # htm-drivefailures
-![Hard drive failure prediction](http://www.builttoordercomputers.com/wp-content/uploads/2011/04/Hard-Disk-Drive-1.jpg "Hard drive failures")
+![Hard drive failure prediction](https://upload.wikimedia.org/wikipedia/commons/b/b9/Hard_disk_failure.jpeg "Hard drive failures")
 
 Hard drive failure prediction using SMART data set
 
