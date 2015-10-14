@@ -1,0 +1,34 @@
+# Set local python env
+1. install python using dmg - /Library
+2. pip install virtualenv
+3. brew install pyenv-virtualenv
+4. add following to .profile
+   eval "$(pyenv init -)"
+   eval "$(pyenv virtualenv-init -)"
+5. goto $HOME and run pyenv -h
+6. mkdir virtual_env
+7. cd virtual_env
+8. pyenv versions (should give list of python versions) 
+9. pyenv virtualenv venv
+10. pyenv versions
+11. pyenv activate venv
+12. python -V
+13. which python
+14. pip list
+15. pyenv deactivate (when done)
+
+# Get Nupic Core
+https://github.com/numenta/nupic.core
+run as per instructions
+
+# Get Nupic
+https://github.com/numenta/nupic
+run as per instructions
+
+# Run Pycharm and start the IDE
+masingh-ltm:~ manpreet.singh$ pyenv activate venv
+(venv)masingh-ltm:~ manpreet.singh$ ml
+
+# Run Swarming
+goto $NUPIC
+$NUPIC/scripts/run_swarm.py /Users/manpreet.singh/Sandbox/codehub/github/htm-drivefailures/code/swarm_description.json  --maxWorkers=4 --overwrite
