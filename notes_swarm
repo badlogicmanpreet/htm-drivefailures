@@ -1,0 +1,1568 @@
+/Users/manpreet.singh/.pyenv/versions/venv/bin/python /Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/swarm.py
+==================================
+swarming on harddrive-smart-data-pp data ...
+This will take some time, grab a cup of coffee
+==================================
+Generating experiment files in directory: /Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/swarm...
+Writing  313 lines...
+Writing  114 lines...
+done.
+None
+__getDBNameForVersion
+Successfully submitted new HyperSearch job, jobID=1014
+##>> UPDATED WORKER STATE:
+{   u'activeSwarms': [   u'modelParams|sensorParams|encoders|Servo10',
+                         u'modelParams|sensorParams|encoders|ReadError1',
+                         u'modelParams|sensorParams|encoders|ReadError2',
+                         u'modelParams|sensorParams|encoders|ReadError3',
+                         u'modelParams|sensorParams|encoders|GList3',
+                         u'modelParams|sensorParams|encoders|GList2',
+                         u'modelParams|sensorParams|encoders|GList1',
+                         u'modelParams|sensorParams|encoders|Servo8',
+                         u'modelParams|sensorParams|encoders|Servo7',
+                         u'modelParams|sensorParams|encoders|Servo5',
+                         u'modelParams|sensorParams|encoders|Servo3',
+                         u'modelParams|sensorParams|encoders|Servo2',
+                         u'modelParams|sensorParams|encoders|Servo1',
+                         u'modelParams|sensorParams|encoders|FlyHeight8',
+                         u'modelParams|sensorParams|encoders|FlyHeight9',
+                         u'modelParams|sensorParams|encoders|FlyHeight5',
+                         u'modelParams|sensorParams|encoders|FlyHeight6',
+                         u'modelParams|sensorParams|encoders|FlyHeight7',
+                         u'modelParams|sensorParams|encoders|PList',
+                         u'modelParams|sensorParams|encoders|ReadError18',
+                         u'modelParams|sensorParams|encoders|ReadError19',
+                         u'modelParams|sensorParams|encoders|FlyHeight12',
+                         u'modelParams|sensorParams|encoders|FlyHeight10',
+                         u'modelParams|sensorParams|encoders|FlyHeight11',
+                         u'modelParams|sensorParams|encoders|ReadError20',
+                         u'modelParams|sensorParams|encoders|class'],
+    u'blackListedEncoders': [],
+    u'lastGoodSprint': None,
+    u'lastUpdateTime': 1445965093.957844,
+    u'searchOver': False,
+    u'sprints': [   {   u'bestErrScore': None,
+                        u'bestModelId': None,
+                        u'status': u'active'}],
+    u'swarms': {   u'modelParams|sensorParams|encoders|FlyHeight10': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight11': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight12': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight5': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight6': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight7': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight8': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|FlyHeight9': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|GList1': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|GList2': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|GList3': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|PList': {   u'bestErrScore': None,
+                                                                   u'bestModelId': None,
+                                                                   u'sprintIdx': 0,
+                                                                   u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError1': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError18': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError19': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError2': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError20': {   u'bestErrScore': None,
+                                                                         u'bestModelId': None,
+                                                                         u'sprintIdx': 0,
+                                                                         u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|ReadError3': {   u'bestErrScore': None,
+                                                                        u'bestModelId': None,
+                                                                        u'sprintIdx': 0,
+                                                                        u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo1': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo10': {   u'bestErrScore': None,
+                                                                     u'bestModelId': None,
+                                                                     u'sprintIdx': 0,
+                                                                     u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo2': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo3': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo5': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo7': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|Servo8': {   u'bestErrScore': None,
+                                                                    u'bestModelId': None,
+                                                                    u'sprintIdx': 0,
+                                                                    u'status': u'active'},
+                   u'modelParams|sensorParams|encoders|class': {   u'bestErrScore': None,
+                                                                   u'bestModelId': None,
+                                                                   u'sprintIdx': 0,
+                                                                   u'status': u'active'}}}
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': False} (elapsed time: 11.1381 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.018,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.018},
+    u'saved': False} (elapsed time: 345.538 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.024,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.024},
+    u'saved': False} (elapsed time: 347.58 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.03,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.03},
+    u'saved': False} (elapsed time: 350.627 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.043,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.043},
+    u'saved': False} (elapsed time: 353.685 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.049,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.049},
+    u'saved': False} (elapsed time: 356.744 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.056,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.056},
+    u'saved': False} (elapsed time: 359.804 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.069,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.069},
+    u'saved': False} (elapsed time: 362.859 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.081,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.081},
+    u'saved': False} (elapsed time: 365.912 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.089,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.089},
+    u'saved': False} (elapsed time: 368.96 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.096,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.096},
+    u'saved': False} (elapsed time: 372.013 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.078,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.078},
+    u'saved': False} (elapsed time: 375.07 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.072,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.072},
+    u'saved': False} (elapsed time: 377.108 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.068,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.068},
+    u'saved': False} (elapsed time: 380.164 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.056,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.056},
+    u'saved': False} (elapsed time: 382.197 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.052,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.052},
+    u'saved': False} (elapsed time: 385.249 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.046,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.046},
+    u'saved': False} (elapsed time: 387.29 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.034,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.034},
+    u'saved': False} (elapsed time: 390.354 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.022,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.022},
+    u'saved': False} (elapsed time: 393.397 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.018,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.018},
+    u'saved': False} (elapsed time: 395.431 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.014,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.014},
+    u'saved': False} (elapsed time: 397.468 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.015,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.015},
+    u'saved': False} (elapsed time: 400.525 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.013,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.013},
+    u'saved': False} (elapsed time: 408.67 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.012,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.012},
+    u'saved': False} (elapsed time: 411.729 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.01,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.01},
+    u'saved': False} (elapsed time: 415.805 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.009,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.009},
+    u'saved': False} (elapsed time: 419.882 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.005,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.005},
+    u'saved': False} (elapsed time: 429.052 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.002,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.002},
+    u'saved': False} (elapsed time: 431.096 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 435.168 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.002,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.002},
+    u'saved': False} (elapsed time: 442.296 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.003,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.003},
+    u'saved': False} (elapsed time: 445.351 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.004,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.004},
+    u'saved': False} (elapsed time: 451.456 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.003,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.003},
+    u'saved': False} (elapsed time: 454.522 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.004,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.004},
+    u'saved': False} (elapsed time: 461.65 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.005,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.005},
+    u'saved': False} (elapsed time: 463.69 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.004,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.004},
+    u'saved': False} (elapsed time: 471.843 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.003,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.003},
+    u'saved': False} (elapsed time: 474.893 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.002,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.002},
+    u'saved': False} (elapsed time: 482.025 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 496.277 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': False} (elapsed time: 499.335 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 517.677 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': False} (elapsed time: 551.272 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 566.547 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': False} (elapsed time: 605.209 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 627.63 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.002,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.002},
+    u'saved': False} (elapsed time: 631.703 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.001,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.001},
+    u'saved': False} (elapsed time: 667.34 secs)
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2160,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': False} (elapsed time: 670.396 secs)
+<jobID: 1014> 1  models finished [success: 1; EOF: 1; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+####>> UPDATED JOB RESULTS:
+{   u'bestModel': 2373,
+    u'bestValue': 0.0,
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': True} (elapsed time: 744.731 secs)
+<jobID: 1014> 2  models finished [success: 2; EOF: 2; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 3  models finished [success: 3; EOF: 3; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 4  models finished [success: 4; EOF: 4; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 5  models finished [success: 5; EOF: 5; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 6  models finished [success: 6; EOF: 6; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 7  models finished [success: 7; EOF: 7; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 8  models finished [success: 8; EOF: 8; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 9  models finished [success: 9; EOF: 9; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 10  models finished [success: 10; EOF: 10; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 11  models finished [success: 11; EOF: 11; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 12  models finished [success: 12; EOF: 12; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 13  models finished [success: 13; EOF: 13; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 14  models finished [success: 14; EOF: 14; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 15  models finished [success: 15; EOF: 15; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 16  models finished [success: 16; EOF: 16; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 17  models finished [success: 17; EOF: 17; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 18  models finished [success: 18; EOF: 18; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 19  models finished [success: 19; EOF: 19; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 20  models finished [success: 20; EOF: 20; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 21  models finished [success: 21; EOF: 21; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 22  models finished [success: 22; EOF: 22; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 23  models finished [success: 23; EOF: 23; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 24  models finished [success: 24; EOF: 24; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 25  models finished [success: 25; EOF: 25; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 26  models finished [success: 26; EOF: 26; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 27  models finished [success: 27; EOF: 27; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 28  models finished [success: 28; EOF: 28; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 29  models finished [success: 29; EOF: 29; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 30  models finished [success: 30; EOF: 30; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 31  models finished [success: 31; EOF: 31; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 32  models finished [success: 32; EOF: 32; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 33  models finished [success: 33; EOF: 33; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 34  models finished [success: 34; EOF: 34; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 35  models finished [success: 35; EOF: 35; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 36  models finished [success: 36; EOF: 36; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 37  models finished [success: 37; EOF: 37; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 38  models finished [success: 38; EOF: 38; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 40  models finished [success: 40; EOF: 40; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 41  models finished [success: 41; EOF: 41; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 42  models finished [success: 42; EOF: 42; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 43  models finished [success: 43; EOF: 43; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 44  models finished [success: 44; EOF: 44; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 45  models finished [success: 45; EOF: 45; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 46  models finished [success: 46; EOF: 46; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 47  models finished [success: 47; EOF: 47; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 48  models finished [success: 48; EOF: 48; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 49  models finished [success: 49; EOF: 49; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 50  models finished [success: 50; EOF: 50; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 51  models finished [success: 51; EOF: 51; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 52  models finished [success: 52; EOF: 52; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 53  models finished [success: 53; EOF: 53; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 54  models finished [success: 54; EOF: 54; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 55  models finished [success: 55; EOF: 55; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 56  models finished [success: 56; EOF: 56; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 57  models finished [success: 57; EOF: 57; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 58  models finished [success: 58; EOF: 58; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 59  models finished [success: 59; EOF: 59; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 60  models finished [success: 60; EOF: 60; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 61  models finished [success: 61; EOF: 61; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 62  models finished [success: 62; EOF: 62; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 63  models finished [success: 63; EOF: 63; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 64  models finished [success: 64; EOF: 64; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 65  models finished [success: 65; EOF: 65; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 66  models finished [success: 66; EOF: 66; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 67  models finished [success: 67; EOF: 67; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 68  models finished [success: 68; EOF: 68; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 69  models finished [success: 69; EOF: 69; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 70  models finished [success: 70; EOF: 70; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 71  models finished [success: 71; EOF: 71; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 72  models finished [success: 72; EOF: 72; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 73  models finished [success: 73; EOF: 73; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 74  models finished [success: 74; EOF: 74; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 75  models finished [success: 75; EOF: 75; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 76  models finished [success: 76; EOF: 76; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 77  models finished [success: 77; EOF: 77; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 78  models finished [success: 78; EOF: 78; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 79  models finished [success: 79; EOF: 79; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 80  models finished [success: 80; EOF: 80; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 81  models finished [success: 81; EOF: 81; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 82  models finished [success: 82; EOF: 82; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 83  models finished [success: 83; EOF: 83; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 84  models finished [success: 84; EOF: 84; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 85  models finished [success: 85; EOF: 85; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 86  models finished [success: 86; EOF: 86; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 87  models finished [success: 87; EOF: 87; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 88  models finished [success: 88; EOF: 88; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 89  models finished [success: 89; EOF: 89; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 90  models finished [success: 90; EOF: 90; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 91  models finished [success: 91; EOF: 91; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 92  models finished [success: 92; EOF: 92; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 93  models finished [success: 93; EOF: 93; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 94  models finished [success: 94; EOF: 94; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 95  models finished [success: 95; EOF: 95; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 96  models finished [success: 96; EOF: 96; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 97  models finished [success: 97; EOF: 97; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 98  models finished [success: 98; EOF: 98; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 99  models finished [success: 99; EOF: 99; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 100  models finished [success: 100; EOF: 100; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 101  models finished [success: 101; EOF: 101; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 102  models finished [success: 102; EOF: 102; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 103  models finished [success: 103; EOF: 103; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 104  models finished [success: 104; EOF: 104; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|FlyHeight5' with a best errScore of 0
+<jobID: 1014> 105  models finished [success: 105; EOF: 105; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 106  models finished [success: 106; EOF: 106; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|GList1' with a best errScore of 0
+<jobID: 1014> 107  models finished [success: 107; EOF: 107; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|GList2' with a best errScore of 0
+<jobID: 1014> 108  models finished [success: 108; EOF: 108; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 109  models finished [success: 109; EOF: 109; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 110  models finished [success: 110; EOF: 110; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 111  models finished [success: 111; EOF: 111; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|GList3' with a best errScore of 0
+<jobID: 1014> 112  models finished [success: 112; EOF: 112; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|PList' with a best errScore of 0
+<jobID: 1014> 113  models finished [success: 113; EOF: 113; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|ReadError1' with a best errScore of 0
+<jobID: 1014> 114  models finished [success: 114; EOF: 114; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 115  models finished [success: 115; EOF: 115; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 116  models finished [success: 116; EOF: 116; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|ReadError19' with a best errScore of 0
+<jobID: 1014> 117  models finished [success: 117; EOF: 117; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|ReadError2' with a best errScore of 0
+<jobID: 1014> 118  models finished [success: 118; EOF: 118; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|ReadError20' with a best errScore of 0
+<jobID: 1014> 119  models finished [success: 119; EOF: 119; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 120  models finished [success: 120; EOF: 120; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 121  models finished [success: 121; EOF: 121; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 122  models finished [success: 122; EOF: 122; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|ReadError3' with a best errScore of 0
+<jobID: 1014> 123  models finished [success: 123; EOF: 123; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo1' with a best errScore of 0
+<jobID: 1014> 124  models finished [success: 124; EOF: 124; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|class' with a best errScore of 0
+<jobID: 1014> 125  models finished [success: 125; EOF: 125; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 126  models finished [success: 126; EOF: 126; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 127  models finished [success: 127; EOF: 127; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 128  models finished [success: 128; EOF: 128; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 129  models finished [success: 129; EOF: 129; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 130  models finished [success: 130; EOF: 130; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo7' with a best errScore of 0
+<jobID: 1014> 131  models finished [success: 131; EOF: 131; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 132  models finished [success: 132; EOF: 132; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo5' with a best errScore of 0
+<jobID: 1014> 133  models finished [success: 133; EOF: 133; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo7' with a best errScore of 0
+<jobID: 1014> 134  models finished [success: 134; EOF: 134; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|class' with a best errScore of 0
+<jobID: 1014> 135  models finished [success: 135; EOF: 135; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo10' with a best errScore of 0
+<jobID: 1014> 136  models finished [success: 136; EOF: 136; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|class' with a best errScore of 0
+<jobID: 1014> 137  models finished [success: 137; EOF: 137; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo10' with a best errScore of 0
+<jobID: 1014> 138  models finished [success: 138; EOF: 138; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 139  models finished [success: 139; EOF: 139; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|class' with a best errScore of 0
+<jobID: 1014> 140  models finished [success: 140; EOF: 140; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo2' with a best errScore of 0
+<jobID: 1014> 141  models finished [success: 141; EOF: 141; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 142  models finished [success: 142; EOF: 142; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 143  models finished [success: 143; EOF: 143; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 144  models finished [success: 144; EOF: 144; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 145  models finished [success: 145; EOF: 145; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 146  models finished [success: 146; EOF: 146; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 147  models finished [success: 147; EOF: 147; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo10' with a best errScore of 0
+<jobID: 1014> 148  models finished [success: 148; EOF: 148; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+##>> UPDATED STATUS:
+Completed generation #0 of swarm 'modelParams|sensorParams|encoders|Servo8' with a best errScore of 0
+<jobID: 1014> 149  models finished [success: 149; EOF: 149; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 150  models finished [success: 150; EOF: 150; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 151  models finished [success: 151; EOF: 151; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 152  models finished [success: 152; EOF: 152; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 153  models finished [success: 153; EOF: 153; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 154  models finished [success: 154; EOF: 154; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 155  models finished [success: 155; EOF: 155; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 156  models finished [success: 156; EOF: 156; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 157  models finished [success: 157; EOF: 157; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 158  models finished [success: 158; EOF: 158; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 159  models finished [success: 159; EOF: 159; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 160  models finished [success: 160; EOF: 160; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 161  models finished [success: 161; EOF: 161; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 162  models finished [success: 162; EOF: 162; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 163  models finished [success: 163; EOF: 163; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 164  models finished [success: 164; EOF: 164; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 165  models finished [success: 165; EOF: 165; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 166  models finished [success: 166; EOF: 166; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 167  models finished [success: 167; EOF: 167; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 168  models finished [success: 168; EOF: 168; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 169  models finished [success: 169; EOF: 169; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 170  models finished [success: 170; EOF: 170; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 171  models finished [success: 171; EOF: 171; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 172  models finished [success: 172; EOF: 172; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 173  models finished [success: 173; EOF: 173; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 174  models finished [success: 174; EOF: 174; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 175  models finished [success: 175; EOF: 175; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 176  models finished [success: 176; EOF: 176; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 177  models finished [success: 177; EOF: 177; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 178  models finished [success: 178; EOF: 178; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 179  models finished [success: 179; EOF: 179; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 180  models finished [success: 180; EOF: 180; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 181  models finished [success: 181; EOF: 181; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 182  models finished [success: 182; EOF: 182; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 183  models finished [success: 183; EOF: 183; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 184  models finished [success: 184; EOF: 184; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 185  models finished [success: 185; EOF: 185; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 186  models finished [success: 186; EOF: 186; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 187  models finished [success: 187; EOF: 187; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 188  models finished [success: 188; EOF: 188; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 189  models finished [success: 189; EOF: 189; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 190  models finished [success: 190; EOF: 190; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 191  models finished [success: 191; EOF: 191; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 192  models finished [success: 192; EOF: 192; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 193  models finished [success: 193; EOF: 193; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 194  models finished [success: 194; EOF: 194; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 195  models finished [success: 195; EOF: 195; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 196  models finished [success: 196; EOF: 196; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 197  models finished [success: 197; EOF: 197; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 198  models finished [success: 198; EOF: 198; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 199  models finished [success: 199; EOF: 199; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+<jobID: 1014> 200  models finished [success: 200; EOF: 200; stopped: 0; killed: 0; error: 0; orphaned: 0; unknown: 0]
+####>> UPDATED JOB RESULTS:
+{   u'absoluteFieldContributions': {   u'FlyHeight10': 1e-05,
+                                       u'FlyHeight11': 1e-05,
+                                       u'FlyHeight12': 1e-05,
+                                       u'FlyHeight5': 1e-05,
+                                       u'FlyHeight6': 1e-05,
+                                       u'FlyHeight7': 1e-05,
+                                       u'FlyHeight8': 1e-05,
+                                       u'FlyHeight9': 1e-05,
+                                       u'GList1': 1e-05,
+                                       u'GList2': 1e-05,
+                                       u'GList3': 1e-05,
+                                       u'PList': 1e-05,
+                                       u'ReadError1': 1e-05,
+                                       u'ReadError18': 1e-05,
+                                       u'ReadError19': 1e-05,
+                                       u'ReadError2': 1e-05,
+                                       u'ReadError20': 1e-05,
+                                       u'ReadError3': 1e-05,
+                                       u'Servo1': 1e-05,
+                                       u'Servo10': 1e-05,
+                                       u'Servo2': 1e-05,
+                                       u'Servo3': 1e-05,
+                                       u'Servo5': 1e-05,
+                                       u'Servo7': 1e-05,
+                                       u'Servo8': 1e-05,
+                                       u'class': 1e-05},
+    u'bestModel': 2373,
+    u'bestValue': 0.0,
+    u'fieldContributions': {   u'FlyHeight10': 100.0,
+                               u'FlyHeight11': 100.0,
+                               u'FlyHeight12': 100.0,
+                               u'FlyHeight5': 100.0,
+                               u'FlyHeight6': 100.0,
+                               u'FlyHeight7': 100.0,
+                               u'FlyHeight8': 100.0,
+                               u'FlyHeight9': 100.0,
+                               u'GList1': 100.0,
+                               u'GList2': 100.0,
+                               u'GList3': 100.0,
+                               u'PList': 100.0,
+                               u'ReadError1': 100.0,
+                               u'ReadError18': 100.0,
+                               u'ReadError19': 100.0,
+                               u'ReadError2': 100.0,
+                               u'ReadError20': 100.0,
+                               u'ReadError3': 100.0,
+                               u'Servo1': 100.0,
+                               u'Servo10': 100.0,
+                               u'Servo2': 100.0,
+                               u'Servo3': 100.0,
+                               u'Servo5': 100.0,
+                               u'Servo7': 100.0,
+                               u'Servo8': 100.0,
+                               u'class': 100.0},
+    u'metrics': {   u"multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class": 0.0},
+    u'saved': True} (elapsed time: 34707.3 secs)
+Evaluated 200 models
+HyperSearch finished!
+Worker completion message: None
+
+Results from all experiments:
+----------------------------------------------------------------
+Generating experiment files in directory: /var/folders/zr/f9bb8cmd0zjchrlwl4tw4tn5z1s5dd/T/tmpI4EBPK...
+Writing  313 lines...
+Writing  114 lines...
+done.
+None
+[0] Experiment _NupicModelInfo(jobID=1014, modelID=2160, status=completed, completionReason=eof, updateCounter=987, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[1] Experiment _NupicModelInfo(jobID=1014, modelID=2241, status=completed, completionReason=eof, updateCounter=690, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|FlyHeight11:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[2] Experiment _NupicModelInfo(jobID=1014, modelID=2312, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight12:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[3] Experiment _NupicModelInfo(jobID=1014, modelID=2373, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight5:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[4] Experiment _NupicModelInfo(jobID=1014, modelID=2424, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[5] Experiment _NupicModelInfo(jobID=1014, modelID=2465, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[6] Experiment _NupicModelInfo(jobID=1014, modelID=2496, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_272.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.05005.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[7] Experiment _NupicModelInfo(jobID=1014, modelID=2517, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[8] Experiment _NupicModelInfo(jobID=1014, modelID=2528, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_14.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|sensorParams|encoders|GList1:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[9] Experiment _NupicModelInfo(jobID=1014, modelID=2529, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_11.modelParams|clParams|alpha_0.05005.modelParams|sensorParams|encoders|GList2:n_272.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[10] Experiment _NupicModelInfo(jobID=1014, modelID=2530, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|GList3:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[11] Experiment _NupicModelInfo(jobID=1014, modelID=2531, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015.modelParams|sensorParams|encoders|PList:n_272):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[12] Experiment _NupicModelInfo(jobID=1014, modelID=2532, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[13] Experiment _NupicModelInfo(jobID=1014, modelID=2533, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[14] Experiment _NupicModelInfo(jobID=1014, modelID=2534, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError19:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[15] Experiment _NupicModelInfo(jobID=1014, modelID=2535, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[16] Experiment _NupicModelInfo(jobID=1014, modelID=2536, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError20:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[17] Experiment _NupicModelInfo(jobID=1014, modelID=2537, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError3:n_272.modelParams|spParams|synPermInactiveDec_0.05015.modelParams|tpParams|pamLength_3):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[18] Experiment _NupicModelInfo(jobID=1014, modelID=2538, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|Servo1:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[19] Experiment _NupicModelInfo(jobID=1014, modelID=2539, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo10:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[20] Experiment _NupicModelInfo(jobID=1014, modelID=2540, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|Servo2:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[21] Experiment _NupicModelInfo(jobID=1014, modelID=2541, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[22] Experiment _NupicModelInfo(jobID=1014, modelID=2542, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo5:n_272.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[23] Experiment _NupicModelInfo(jobID=1014, modelID=2543, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_272.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.05005.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[24] Experiment _NupicModelInfo(jobID=1014, modelID=2544, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_272.modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[25] Experiment _NupicModelInfo(jobID=1014, modelID=2545, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[26] Experiment _NupicModelInfo(jobID=1014, modelID=2546, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[27] Experiment _NupicModelInfo(jobID=1014, modelID=2547, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|FlyHeight11:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[28] Experiment _NupicModelInfo(jobID=1014, modelID=2548, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|sensorParams|encoders|FlyHeight12:n_22.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[29] Experiment _NupicModelInfo(jobID=1014, modelID=2549, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|sensorParams|encoders|FlyHeight5:n_22.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[30] Experiment _NupicModelInfo(jobID=1014, modelID=2550, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[31] Experiment _NupicModelInfo(jobID=1014, modelID=2551, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[32] Experiment _NupicModelInfo(jobID=1014, modelID=2552, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_22.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|clParams|alpha_0.0001.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[33] Experiment _NupicModelInfo(jobID=1014, modelID=2553, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[34] Experiment _NupicModelInfo(jobID=1014, modelID=2554, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_12.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|sensorParams|encoders|GList1:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[35] Experiment _NupicModelInfo(jobID=1014, modelID=2555, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_9.modelParams|clParams|alpha_0.0001.modelParams|sensorParams|encoders|GList2:n_22.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[36] Experiment _NupicModelInfo(jobID=1014, modelID=2556, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|sensorParams|encoders|GList3:n_22.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[37] Experiment _NupicModelInfo(jobID=1014, modelID=2557, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1.modelParams|sensorParams|encoders|PList:n_22):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[38] Experiment _NupicModelInfo(jobID=1014, modelID=2558, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[39] Experiment _NupicModelInfo(jobID=1014, modelID=2559, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[40] Experiment _NupicModelInfo(jobID=1014, modelID=2560, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|ReadError19:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[41] Experiment _NupicModelInfo(jobID=1014, modelID=2561, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[42] Experiment _NupicModelInfo(jobID=1014, modelID=2562, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|ReadError20:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[43] Experiment _NupicModelInfo(jobID=1014, modelID=2563, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|ReadError3:n_22.modelParams|spParams|synPermInactiveDec_0.1.modelParams|tpParams|pamLength_1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[44] Experiment _NupicModelInfo(jobID=1014, modelID=2564, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|sensorParams|encoders|Servo1:n_22.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[45] Experiment _NupicModelInfo(jobID=1014, modelID=2565, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|Servo10:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[46] Experiment _NupicModelInfo(jobID=1014, modelID=2566, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|sensorParams|encoders|Servo2:n_22.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[47] Experiment _NupicModelInfo(jobID=1014, modelID=2567, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[48] Experiment _NupicModelInfo(jobID=1014, modelID=2568, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|sensorParams|encoders|Servo5:n_22.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[49] Experiment _NupicModelInfo(jobID=1014, modelID=2569, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_22.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|clParams|alpha_0.0001.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[50] Experiment _NupicModelInfo(jobID=1014, modelID=2570, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_22.modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[51] Experiment _NupicModelInfo(jobID=1014, modelID=2571, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0001.modelParams|tpParams|minThreshold_9.modelParams|tpParams|activationThreshold_12.modelParams|tpParams|pamLength_1.modelParams|spParams|synPermInactiveDec_0.1):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[52] Experiment _NupicModelInfo(jobID=1014, modelID=2572, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[53] Experiment _NupicModelInfo(jobID=1014, modelID=2573, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|FlyHeight11:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[54] Experiment _NupicModelInfo(jobID=1014, modelID=2574, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|sensorParams|encoders|FlyHeight12:n_521.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[55] Experiment _NupicModelInfo(jobID=1014, modelID=2575, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|sensorParams|encoders|FlyHeight5:n_521.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[56] Experiment _NupicModelInfo(jobID=1014, modelID=2576, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[57] Experiment _NupicModelInfo(jobID=1014, modelID=2577, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[58] Experiment _NupicModelInfo(jobID=1014, modelID=2578, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_521.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|clParams|alpha_0.1.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[59] Experiment _NupicModelInfo(jobID=1014, modelID=2579, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[60] Experiment _NupicModelInfo(jobID=1014, modelID=2580, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_16.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|sensorParams|encoders|GList1:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[61] Experiment _NupicModelInfo(jobID=1014, modelID=2581, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_12.modelParams|clParams|alpha_0.1.modelParams|sensorParams|encoders|GList2:n_521.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[62] Experiment _NupicModelInfo(jobID=1014, modelID=2582, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|sensorParams|encoders|GList3:n_521.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[63] Experiment _NupicModelInfo(jobID=1014, modelID=2583, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003.modelParams|sensorParams|encoders|PList:n_521):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[64] Experiment _NupicModelInfo(jobID=1014, modelID=2584, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[65] Experiment _NupicModelInfo(jobID=1014, modelID=2585, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[66] Experiment _NupicModelInfo(jobID=1014, modelID=2586, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|ReadError19:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[67] Experiment _NupicModelInfo(jobID=1014, modelID=2587, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[68] Experiment _NupicModelInfo(jobID=1014, modelID=2588, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|ReadError20:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[69] Experiment _NupicModelInfo(jobID=1014, modelID=2589, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|ReadError3:n_521.modelParams|spParams|synPermInactiveDec_0.0003.modelParams|tpParams|pamLength_5):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[70] Experiment _NupicModelInfo(jobID=1014, modelID=2590, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|sensorParams|encoders|Servo1:n_521.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[71] Experiment _NupicModelInfo(jobID=1014, modelID=2591, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|Servo10:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[72] Experiment _NupicModelInfo(jobID=1014, modelID=2592, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|sensorParams|encoders|Servo2:n_521.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[73] Experiment _NupicModelInfo(jobID=1014, modelID=2593, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[74] Experiment _NupicModelInfo(jobID=1014, modelID=2594, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|sensorParams|encoders|Servo5:n_521.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[75] Experiment _NupicModelInfo(jobID=1014, modelID=2595, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_521.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|clParams|alpha_0.1.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[76] Experiment _NupicModelInfo(jobID=1014, modelID=2596, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_521.modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[77] Experiment _NupicModelInfo(jobID=1014, modelID=2597, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.1.modelParams|tpParams|minThreshold_12.modelParams|tpParams|activationThreshold_16.modelParams|tpParams|pamLength_5.modelParams|spParams|synPermInactiveDec_0.0003):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[78] Experiment _NupicModelInfo(jobID=1014, modelID=2598, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[79] Experiment _NupicModelInfo(jobID=1014, modelID=2599, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|FlyHeight11:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[80] Experiment _NupicModelInfo(jobID=1014, modelID=2600, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|FlyHeight12:n_147.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[81] Experiment _NupicModelInfo(jobID=1014, modelID=2601, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|FlyHeight5:n_147.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[82] Experiment _NupicModelInfo(jobID=1014, modelID=2602, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[83] Experiment _NupicModelInfo(jobID=1014, modelID=2603, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[84] Experiment _NupicModelInfo(jobID=1014, modelID=2604, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_147.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|clParams|alpha_0.025075.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[85] Experiment _NupicModelInfo(jobID=1014, modelID=2605, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[86] Experiment _NupicModelInfo(jobID=1014, modelID=2606, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_13.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|sensorParams|encoders|GList1:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[87] Experiment _NupicModelInfo(jobID=1014, modelID=2607, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_10.modelParams|clParams|alpha_0.025075.modelParams|sensorParams|encoders|GList2:n_147.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[88] Experiment _NupicModelInfo(jobID=1014, modelID=2608, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|GList3:n_147.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[89] Experiment _NupicModelInfo(jobID=1014, modelID=2609, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075.modelParams|sensorParams|encoders|PList:n_147):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[90] Experiment _NupicModelInfo(jobID=1014, modelID=2610, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[91] Experiment _NupicModelInfo(jobID=1014, modelID=2611, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[92] Experiment _NupicModelInfo(jobID=1014, modelID=2612, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|ReadError19:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[93] Experiment _NupicModelInfo(jobID=1014, modelID=2613, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[94] Experiment _NupicModelInfo(jobID=1014, modelID=2614, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|ReadError20:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[95] Experiment _NupicModelInfo(jobID=1014, modelID=2615, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|ReadError3:n_147.modelParams|spParams|synPermInactiveDec_0.075075.modelParams|tpParams|pamLength_2):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[96] Experiment _NupicModelInfo(jobID=1014, modelID=2616, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|Servo1:n_147.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[97] Experiment _NupicModelInfo(jobID=1014, modelID=2617, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|Servo10:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[98] Experiment _NupicModelInfo(jobID=1014, modelID=2618, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|Servo2:n_147.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[99] Experiment _NupicModelInfo(jobID=1014, modelID=2619, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[100] Experiment _NupicModelInfo(jobID=1014, modelID=2620, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|sensorParams|encoders|Servo5:n_147.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[101] Experiment _NupicModelInfo(jobID=1014, modelID=2621, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_147.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|clParams|alpha_0.025075.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[102] Experiment _NupicModelInfo(jobID=1014, modelID=2622, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_147.modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[103] Experiment _NupicModelInfo(jobID=1014, modelID=2623, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.025075.modelParams|tpParams|minThreshold_10.modelParams|tpParams|activationThreshold_13.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.075075):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[104] Experiment _NupicModelInfo(jobID=1014, modelID=2624, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[105] Experiment _NupicModelInfo(jobID=1014, modelID=2625, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|FlyHeight11:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[106] Experiment _NupicModelInfo(jobID=1014, modelID=2626, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|FlyHeight12:n_396.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[107] Experiment _NupicModelInfo(jobID=1014, modelID=2627, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|FlyHeight5:n_396.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[108] Experiment _NupicModelInfo(jobID=1014, modelID=2628, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[109] Experiment _NupicModelInfo(jobID=1014, modelID=2629, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[110] Experiment _NupicModelInfo(jobID=1014, modelID=2630, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_396.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|clParams|alpha_0.075025.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[111] Experiment _NupicModelInfo(jobID=1014, modelID=2631, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[112] Experiment _NupicModelInfo(jobID=1014, modelID=2632, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_15.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|sensorParams|encoders|GList1:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[113] Experiment _NupicModelInfo(jobID=1014, modelID=2633, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_11.modelParams|clParams|alpha_0.075025.modelParams|sensorParams|encoders|GList2:n_396.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[114] Experiment _NupicModelInfo(jobID=1014, modelID=2634, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|GList3:n_396.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[115] Experiment _NupicModelInfo(jobID=1014, modelID=2635, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225.modelParams|sensorParams|encoders|PList:n_396):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[116] Experiment _NupicModelInfo(jobID=1014, modelID=2636, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[117] Experiment _NupicModelInfo(jobID=1014, modelID=2637, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[118] Experiment _NupicModelInfo(jobID=1014, modelID=2638, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|ReadError19:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[119] Experiment _NupicModelInfo(jobID=1014, modelID=2639, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[120] Experiment _NupicModelInfo(jobID=1014, modelID=2640, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|ReadError20:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[121] Experiment _NupicModelInfo(jobID=1014, modelID=2641, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|ReadError3:n_396.modelParams|spParams|synPermInactiveDec_0.025225.modelParams|tpParams|pamLength_4):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[122] Experiment _NupicModelInfo(jobID=1014, modelID=2642, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|Servo1:n_396.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[123] Experiment _NupicModelInfo(jobID=1014, modelID=2643, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|Servo10:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[124] Experiment _NupicModelInfo(jobID=1014, modelID=2644, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|Servo2:n_396.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[125] Experiment _NupicModelInfo(jobID=1014, modelID=2645, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[126] Experiment _NupicModelInfo(jobID=1014, modelID=2646, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|sensorParams|encoders|Servo5:n_396.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[127] Experiment _NupicModelInfo(jobID=1014, modelID=2647, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_396.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|clParams|alpha_0.075025.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[128] Experiment _NupicModelInfo(jobID=1014, modelID=2648, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_396.modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[129] Experiment _NupicModelInfo(jobID=1014, modelID=2649, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.075025.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_15.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.025225):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[130] Experiment _NupicModelInfo(jobID=1014, modelID=2650, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[131] Experiment _NupicModelInfo(jobID=1014, modelID=2651, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|FlyHeight11:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[132] Experiment _NupicModelInfo(jobID=1014, modelID=2652, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight12:n_296.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[133] Experiment _NupicModelInfo(jobID=1014, modelID=2653, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight5:n_296.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[134] Experiment _NupicModelInfo(jobID=1014, modelID=2654, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[135] Experiment _NupicModelInfo(jobID=1014, modelID=2655, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[136] Experiment _NupicModelInfo(jobID=1014, modelID=2656, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_296.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.055045.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[137] Experiment _NupicModelInfo(jobID=1014, modelID=2657, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[138] Experiment _NupicModelInfo(jobID=1014, modelID=2658, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_14.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|sensorParams|encoders|GList1:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[139] Experiment _NupicModelInfo(jobID=1014, modelID=2659, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_11.modelParams|clParams|alpha_0.055045.modelParams|sensorParams|encoders|GList2:n_296.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[140] Experiment _NupicModelInfo(jobID=1014, modelID=2660, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|GList3:n_296.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[141] Experiment _NupicModelInfo(jobID=1014, modelID=2661, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135.modelParams|sensorParams|encoders|PList:n_296):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[142] Experiment _NupicModelInfo(jobID=1014, modelID=2662, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[143] Experiment _NupicModelInfo(jobID=1014, modelID=2663, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[144] Experiment _NupicModelInfo(jobID=1014, modelID=2664, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError19:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[145] Experiment _NupicModelInfo(jobID=1014, modelID=2665, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[146] Experiment _NupicModelInfo(jobID=1014, modelID=2666, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError20:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[147] Experiment _NupicModelInfo(jobID=1014, modelID=2667, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError3:n_296.modelParams|spParams|synPermInactiveDec_0.055135.modelParams|tpParams|pamLength_3):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[148] Experiment _NupicModelInfo(jobID=1014, modelID=2668, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|Servo1:n_296.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[149] Experiment _NupicModelInfo(jobID=1014, modelID=2669, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo10:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[150] Experiment _NupicModelInfo(jobID=1014, modelID=2670, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|Servo2:n_296.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[151] Experiment _NupicModelInfo(jobID=1014, modelID=2671, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[152] Experiment _NupicModelInfo(jobID=1014, modelID=2672, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo5:n_296.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[153] Experiment _NupicModelInfo(jobID=1014, modelID=2673, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_296.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.055045.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[154] Experiment _NupicModelInfo(jobID=1014, modelID=2674, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_296.modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[155] Experiment _NupicModelInfo(jobID=1014, modelID=2675, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.055045.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.055135):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[156] Experiment _NupicModelInfo(jobID=1014, modelID=2676, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_200.modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[157] Experiment _NupicModelInfo(jobID=1014, modelID=2677, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|FlyHeight11:n_265.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[158] Experiment _NupicModelInfo(jobID=1014, modelID=2678, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight12:n_206.modelParams|spParams|synPermInactiveDec_0.0645108434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[159] Experiment _NupicModelInfo(jobID=1014, modelID=2679, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight5:n_206.modelParams|spParams|synPermInactiveDec_0.0645108434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[160] Experiment _NupicModelInfo(jobID=1014, modelID=2680, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_250.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[161] Experiment _NupicModelInfo(jobID=1014, modelID=2681, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_265.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[162] Experiment _NupicModelInfo(jobID=1014, modelID=2682, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_200.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|clParams|alpha_0.0495147505482.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[163] Experiment _NupicModelInfo(jobID=1014, modelID=2683, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_200.modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[164] Experiment _NupicModelInfo(jobID=1014, modelID=2684, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_14.modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|sensorParams|encoders|GList1:n_200.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[165] Experiment _NupicModelInfo(jobID=1014, modelID=2685, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_11.modelParams|clParams|alpha_0.0355647148893.modelParams|sensorParams|encoders|GList2:n_269.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[166] Experiment _NupicModelInfo(jobID=1014, modelID=2686, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|GList3:n_265.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[167] Experiment _NupicModelInfo(jobID=1014, modelID=2687, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774.modelParams|sensorParams|encoders|PList:n_250):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[168] Experiment _NupicModelInfo(jobID=1014, modelID=2688, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_250.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[169] Experiment _NupicModelInfo(jobID=1014, modelID=2689, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_265.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[170] Experiment _NupicModelInfo(jobID=1014, modelID=2690, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError19:n_200.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[171] Experiment _NupicModelInfo(jobID=1014, modelID=2691, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_265.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[172] Experiment _NupicModelInfo(jobID=1014, modelID=2692, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError20:n_265.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[173] Experiment _NupicModelInfo(jobID=1014, modelID=2693, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError3:n_248.modelParams|spParams|synPermInactiveDec_0.0534014396774.modelParams|tpParams|pamLength_3):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[174] Experiment _NupicModelInfo(jobID=1014, modelID=2694, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|Servo1:n_265.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[175] Experiment _NupicModelInfo(jobID=1014, modelID=2695, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo10:n_265.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[176] Experiment _NupicModelInfo(jobID=1014, modelID=2696, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|sensorParams|encoders|Servo2:n_200.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[177] Experiment _NupicModelInfo(jobID=1014, modelID=2697, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo3:n_250.modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[178] Experiment _NupicModelInfo(jobID=1014, modelID=2698, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|Servo5:n_248.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[179] Experiment _NupicModelInfo(jobID=1014, modelID=2699, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo7:n_250.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.0355647148893.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[180] Experiment _NupicModelInfo(jobID=1014, modelID=2700, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|Servo8:n_200.modelParams|clParams|alpha_0.0495147505482.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_2.modelParams|spParams|synPermInactiveDec_0.0545408434444):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[181] Experiment _NupicModelInfo(jobID=1014, modelID=2701, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0355647148893.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0534014396774):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[182] Experiment _NupicModelInfo(jobID=1014, modelID=2702, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight10:n_294.modelParams|clParams|alpha_0.0605752494518.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[183] Experiment _NupicModelInfo(jobID=1014, modelID=2703, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|FlyHeight11:n_229.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[184] Experiment _NupicModelInfo(jobID=1014, modelID=2704, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight12:n_338.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[185] Experiment _NupicModelInfo(jobID=1014, modelID=2705, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight5:n_338.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[186] Experiment _NupicModelInfo(jobID=1014, modelID=2706, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight6:n_344.modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0468985603226):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[187] Experiment _NupicModelInfo(jobID=1014, modelID=2707, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight7:n_229.modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[188] Experiment _NupicModelInfo(jobID=1014, modelID=2708, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight8:n_294.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|clParams|alpha_0.0605752494518.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[189] Experiment _NupicModelInfo(jobID=1014, modelID=2709, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|FlyHeight9:n_294.modelParams|clParams|alpha_0.0605752494518.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[190] Experiment _NupicModelInfo(jobID=1014, modelID=2710, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|activationThreshold_14.modelParams|clParams|alpha_0.0605752494518.modelParams|tpParams|minThreshold_11.modelParams|sensorParams|encoders|GList1:n_294.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[191] Experiment _NupicModelInfo(jobID=1014, modelID=2711, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|tpParams|minThreshold_11.modelParams|clParams|alpha_0.0545452851107.modelParams|sensorParams|encoders|GList2:n_325.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[192] Experiment _NupicModelInfo(jobID=1014, modelID=2712, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_4.modelParams|sensorParams|encoders|GList3:n_229.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[193] Experiment _NupicModelInfo(jobID=1014, modelID=2713, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0468985603226.modelParams|sensorParams|encoders|PList:n_344):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[194] Experiment _NupicModelInfo(jobID=1014, modelID=2714, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError1:n_294.modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0468985603226):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[195] Experiment _NupicModelInfo(jobID=1014, modelID=2715, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError18:n_229.modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[196] Experiment _NupicModelInfo(jobID=1014, modelID=2716, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0605752494518.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError19:n_294.modelParams|tpParams|pamLength_3.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[197] Experiment _NupicModelInfo(jobID=1014, modelID=2717, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|sensorParams|encoders|ReadError2:n_229.modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[198] Experiment _NupicModelInfo(jobID=1014, modelID=2718, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError20:n_229.modelParams|tpParams|pamLength_4.modelParams|spParams|synPermInactiveDec_0.0457591565556):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+[199] Experiment _NupicModelInfo(jobID=1014, modelID=2719, status=completed, completionReason=eof, updateCounter=689, numRecords=68411)
+(modelParams|clParams|alpha_0.0545452851107.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|sensorParams|encoders|ReadError3:n_247.modelParams|spParams|synPermInactiveDec_0.0468985603226.modelParams|tpParams|pamLength_3):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:  0.0
+
+--------------------------------------------------------------
+200 experiments total (all completed successfully).
+
+WaitingToStart: 0
+Running: 0
+Completed: 200
+    ran to EOF: 200
+    ran to stop signal: 0
+    were orphaned: 0
+    killed off: 0
+    failed: 0
+
+Field Contributions:
+{   u'FlyHeight10': 100.0,
+    u'FlyHeight11': 100.0,
+    u'FlyHeight12': 100.0,
+    u'FlyHeight5': 100.0,
+    u'FlyHeight6': 100.0,
+    u'FlyHeight7': 100.0,
+    u'FlyHeight8': 100.0,
+    u'FlyHeight9': 100.0,
+    u'GList1': 100.0,
+    u'GList2': 100.0,
+    u'GList3': 100.0,
+    u'PList': 100.0,
+    u'ReadError1': 100.0,
+    u'ReadError18': 100.0,
+    u'ReadError19': 100.0,
+    u'ReadError2': 100.0,
+    u'ReadError20': 100.0,
+    u'ReadError3': 100.0,
+    u'Servo1': 100.0,
+    u'Servo10': 100.0,
+    u'Servo2': 100.0,
+    u'Servo3': 100.0,
+    u'Servo5': 100.0,
+    u'Servo7': 100.0,
+    u'Servo8': 100.0,
+    u'class': 100.0}
+
+Best results on the optimization metric multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class (maximize=False):
+[3] Experiment _NupicModelInfo(jobID=1014, modelID=2373, status=completed, completionReason=eof, updateCounter=689, numRecords=68411) (modelParams|clParams|alpha_0.05005.modelParams|tpParams|minThreshold_11.modelParams|tpParams|activationThreshold_14.modelParams|tpParams|pamLength_3.modelParams|sensorParams|encoders|FlyHeight5:n_272.modelParams|spParams|synPermInactiveDec_0.05015):
+  multiStepBestPredictions:multiStep:errorMetric='avg_err':steps=[1]:window=1000:field=class:    0.0
+
+Total number of Records processed: 13682200
+
+Total wall time for all models: 309904
+
+Generating description files for top 1 models...
+Generating description file for model 2160 at /Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/swarm/model_0
+Generating model params file...
+
+Report csv saved in /Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/swarm/harddrive-smart-data-pp_Report.csv
+Elapsed time (h:mm:ss): 9:38:53
+Hypersearch ClientJobs job ID:  1014
+
+Wrote following model params file:
+	/Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/model_params/harddrive_smart_data_pp_model_params.py
+
+Process finished with exit code 0
