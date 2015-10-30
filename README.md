@@ -29,6 +29,6 @@ harddrive-smart-data-pp-to-train.csv (thrice)
 
 harddrive-smart-data-pp-shuffle.csv  (twice)
 
-calculated accuracy - poor
+calculated accuracy of prediction - poor
 
 
