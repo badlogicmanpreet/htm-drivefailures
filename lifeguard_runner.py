@@ -1,175 +1,203 @@
-from __future__ import division
 __author__ = 'manpreet.singh'
 
-import sys
-import importlib
-import csv
-import datetime
-from nupic.frameworks.opf.modelfactory import ModelFactory
-from nupic.data.inference_shifter import InferenceShifter
-from nupic.frameworks.opf.metrics import MetricSpec
-from nupic.frameworks.opf.predictionmetricsmanager import MetricsManager
-import time
-from collections import deque
-import matplotlib.pyplot as plt
-import csv
 import pandas as pd
+import logging
+import csv
+from nupic.frameworks.opf.modelfactory import ModelFactory
+from model_params.harddrive_smart_data_model_params import MODEL_PARAMS
+import numpy as np
+import os
+from nupic.data.inference_shifter import InferenceShifter
+import nupic_anomaly_output
 
-import nupic_output
+_LOGGER = logging.getLogger(__name__)
 
-DATA_CENTER_NAME = 'harddrive-smart-data-pp'
-DATA_DIR = '.'
-# '7/2/10 0:00'
-DATE_FORMAT = "%m/%d/%y %H:%M"
+_INPUT_FILE = 'harddrive-smart-data-pp-to-train.csv'
+_INPUT_DATA_FILE = 'harddrive-smart-data.csv'
 
-# hack
-SECONDS_PER_STEP = 0.5
-WINDOW = 60
-# turn matplotlib interactive mode on (ion)
-plt.ion()
-fig = plt.figure()
-# plot title, legend, etc
-plt.title('Harddrive prediction example')
-plt.xlabel('time [s]')
-plt.ylabel('failures')
+_OUTPUT_PATH = "anomaly_scores.csv"
 
-DESCRIPTION = (
-  "Starts a NuPIC model from the model params returned by the swarm\n"
-  "and pushes each line of input from the gym into the model. Results\n"
-  "are written to an output file (default) or plotted dynamically if\n"
-  "the --plot option is specified.\n"
-  "NOTE: You must run ./swarm.py before this, because model parameters\n"
-  "are required to run NuPIC.\n"
-)
+_ANOMALY_THRESHOLD = 0.9
 
 
-_METRIC_SPECS = (
-    MetricSpec(field='class', metric='multiStep',
-               inferenceElement='multiStepBestPredictions',
-               params={'errorMetric': 'aae', 'window': 1000, 'steps': 1}),
-    MetricSpec(field='class', metric='trivial',
-               inferenceElement='prediction',
-               params={'errorMetric': 'aae', 'window': 1000, 'steps': 1}),
-    MetricSpec(field='class', metric='multiStep',
-               inferenceElement='multiStepBestPredictions',
-               params={'errorMetric': 'altMAPE', 'window': 1000, 'steps': 1}),
-    MetricSpec(field='class', metric='trivial',
-               inferenceElement='prediction',
-               params={'errorMetric': 'altMAPE', 'window': 1000, 'steps': 1}),
-)
-
-def checkAccuracy() :
-    print()
-
-def csv_writer(data, path):
-    """
-    Write data to a CSV file path
-    """
-    with open(path, "a") as csv_file:
-        writer = csv.writer(csv_file, delimiter=',')
-        for line in data:
-            writer.writerow(line)
+# utility to convert to float
+def convertorToFloat(val):
+    if val == 'True':
+        val = 1
+    elif val == 'False':
+        val = 0
+    elif val is False:
+        val = 0
+    return val
 
 
-def runIoThroughNupic(inputData, model, dataCenterName, plot):
+# select feature set
+def dataCleanser(inputFile):
+    df = pd.read_csv(inputFile)
 
-    # hacking for trial
-    data = pd.read_csv(inputData)
+    colsToDrop = ['GList1', 'PList', 'Servo1', 'Servo2', 'Servo3', 'Servo5',
+                  'ReadError1', 'ReadError2', 'ReadError3', 'FlyHeight5',
+                  'ReadError18', 'ReadError19', 'Servo7', 'Servo8', 'ReadError20', 'GList2',
+                  'GList3', 'Servo10']
+    df = df.drop(colsToDrop, axis=1)
+
+    df['class'] = df['class'].apply(convertorToFloat)
+
+    df.to_csv('harddrive-smart-data-temp.csv', sep=',', index=False)
+
+    df = pd.read_csv('harddrive-smart-data-temp.csv')
+    df = df.convert_objects(convert_numeric=True)
+    print(df.dtypes)
+    df.to_csv('harddrive-smart-data.csv', sep=',', index=False)
+
+
+
+def get_train_test_inds(y,train_proportion=0.7):
+    '''Generates indices, making random stratified split into training set and testing sets
+    with proportions train_proportion and (1-train_proportion) of initial sample.
+    y is any iterable indicating classes of each observation in the sample.
+    Initial proportions of classes inside training and
+    testing sets are preserved (stratified sampling).
+    '''
+
+    y=np.array(y)
+    y.setflags(write=True)
+    train_inds = np.zeros(len(y),dtype=bool)
+    test_inds = np.zeros(len(y),dtype=bool)
+    values = np.unique(y)
+    for value in values:
+        value_inds = np.nonzero(y==value)[0]
+        value_inds.setflags(write=True)
+        np.random.shuffle(value_inds)
+        n = int(train_proportion*len(value_inds))
+
+        train_inds[value_inds[:n]]=True
+        test_inds[value_inds[n:]]=True
+
+    return train_inds,test_inds
+
+
+# split data into good and bad drives, also training and test data
+def dataSplit():
+    df = pd.read_csv('harddrive-smart-data.csv')
+    dfBad = df.loc[df['class'] == 1.0]
+    dfGood = df.loc[df['class'] == 0.0]
+
+    dfBad.to_csv('harddrive-smart-data-bad.csv', sep=',', index=False)
+    dfGood.to_csv('harddrive-smart-data-good.csv', sep=',', index=False)
+
+    print(dfBad.shape)
+    print(dfGood.shape)
+
+    # train_inds_bad, test_inds_bad = get_train_test_inds(dfBad)
+    # train_inds_good, test_inds_good = get_train_test_inds(dfGood)
+    #
+    # dfBadTrain = dfBad[train_inds_bad]
+    # dfBadTest = dfBad[test_inds_bad]
+    #
+    # dfGoodTrain = dfGood[train_inds_good]
+    # dfGoodTest = dfGood[test_inds_good]
+    #
+    # dfBadTrain.to_csv('harddrive-smart-data-bad-train.csv', sep=',', index=False)
+    # dfBadTest.to_csv('harddrive-smart-data-bad-test.csv', sep=',', index=False)
+    #
+    # dfGoodTrain.to_csv('harddrive-smart-data-good-train.csv', sep=',', index=False)
+    # dfGoodTest.to_csv('harddrive-smart-data-good-test.csv', sep=',', index=False)
+
+
+def getModel(flag):
+
+    modelDir = os.getcwd() + '/model/%s' % flag
+
+    _LOGGER.info(modelDir)
+
+    if os.path.exists(modelDir):
+        _LOGGER.info('model exists')
+        model = ModelFactory.loadFromCheckpoint(modelDir)
+        return model
+    else:
+        _LOGGER.info('creating new model')
+        model = ModelFactory.create(MODEL_PARAMS)
+        model.save(modelDir)
+        return model
+
+
+def createModelAndProcess():
+    _LOGGER.info('processing good drives')
+    goodModel = getModel('good')
+    goodModel.enableInference({'predictedField': 'class'})
+    data = pd.read_csv('harddrive-smart-data-good.csv')
     dictionary = data.transpose().to_dict().values()
 
-    # shifter = InferenceShifter()
-    #
-    # # hack
-    # # Keep the last WINDOW predicted and actual values for plotting.
-    # actHistory = deque([0.0] * WINDOW, maxlen=60)
-    # predHistory = deque([0.0] * WINDOW, maxlen=60)
-    #
-    # # Initialize the plot lines that we will update with each new record.
-    # actline, = plt.plot(range(WINDOW), actHistory)
-    # predline, = plt.plot(range(WINDOW), predHistory)
-    # # Set the y-axis range.
-    # actline.axes.set_ylim(0, 2)
-    # predline.axes.set_ylim(0, 2)
-
     counter = 0
-    correct = 0;
     for row in dictionary:
-        counter += 1
-
-        actual = row['class']
-
-        # actHistory.append(actual)
-
-        result = model.run(row)
-
+        result = goodModel.run(row)
         if counter % 100 == 0:
             print "Read %i lines..." % counter
 
-        # if plot:
-        #     result = shifter.shift(result)
+    _LOGGER.info('processing bad drives')
+    badModel = getModel('bad')
+    badModel.enableInference({'predictedField': 'class'})
+    data = pd.read_csv('harddrive-smart-data-bad.csv')
+    dictionary = data.transpose().to_dict().values()
 
-        prediction = result.inferences["multiStepBestPredictions"][1]
+    counter = 0
+    for row in dictionary:
+        result = badModel.run(row)
+        if counter % 100 == 0:
+            print "Read %i lines..." % counter
 
-        # predHistory.append(prediction)
-
-        # hack
-        # write to a file
-        rec = [[actual, prediction]]
-        if actual == prediction:
-            correct += 1
-        #csv_writer(rec, 'result.csv')
-
-        # hack
-        # Redraw the chart with the new data.
-        # actline.set_ydata(actHistory)  # update the data
-        # predline.set_ydata(predHistory)  # update the data
-        # plt.draw()
-        # plt.legend(('actual', 'predicted'))
-
-        # Make sure we wait a total of 2 seconds per iteration.
-        # try:
-        #     plt.pause(SECONDS_PER_STEP)
-        # except:
-        #     pass
-
-    print('Number of %d correct predictions out of %d counter are %f' % (correct, counter, float(correct/counter) * 100))
-
-def getModelParamsFromName(dataCenterName):
-    importName = 'model_params.%s_model_params' % (dataCenterName.replace(' ', '_').replace('-', '_'))
-    print 'import model params from %s' % importName
-    try:
-        importedModelParams = importlib.import_module(importName).MODEL_PARAMS
-    except ImportError:
-        raise Exception('No model params exist for %s' % dataCenterName)
-    return importedModelParams
+    _LOGGER.info('done processing drives')
 
 
-def createModel(modelParams):
-    #model = ModelFactory.create(modelParams)
-    #model.save('/Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/model/model0')
-    model = ModelFactory.loadFromCheckpoint('/Users/manpreet.singh/Sandbox/codehub/github/datascience/workspace/cortical/harddrive_lifeguard/model/model0')
+def runHarddriveAnomaly(plot):
+    shifter = InferenceShifter()
+    if plot:
+        output = nupic_anomaly_output.NuPICPlotOutput('Harddrive Learning')
+    else:
+        output = nupic_anomaly_output.NuPICFileOutput('Harddrive Learning')
+
+
+    _LOGGER.info('start with anomaly detection...')
+    model = getModel('good')
     model.enableInference({'predictedField': 'class'})
 
-    #model.disableLearning()
+    _LOGGER.info('read data file...')
 
-    # model = ModelFactory.create(modelParams)
-    # model.enableInference({'predictedField': 'class'})
-    return model
+    data = pd.read_csv('harddrive-smart-data-test.csv')
+    dictionary = data.transpose().to_dict().values()
+
+    for row in dictionary:
+        csvWriter = csv.writer(open(_OUTPUT_PATH, "wa"))
+        csvWriter.writerow(["class", "anomaly_score"])
+        result = model.run(row)
+
+        if plot:
+           result = shifter.shift(result)
+
+        prediction = result.inferences["multiStepBestPredictions"][1]
+        anomalyScore = result.inferences['anomalyScore']
+
+        output.write('', result.rawInput["class"], prediction, anomalyScore)
+
+        csvWriter.writerow([row["class"], anomalyScore])
+        if anomalyScore > _ANOMALY_THRESHOLD:
+            _LOGGER.info("Anomaly detected at [%s]. Anomaly score: %f.", result.rawInput["class"], anomalyScore)
 
 
-def runModel(dataCenterName, plot):
-    model = createModel(getModelParamsFromName(dataCenterName))
-    inputData = '%s/%s.csv' % (DATA_DIR, dataCenterName.replace(' ', '_'))
-    print(inputData)
-    inputData = './harddrive-smart-data-pp-shuffled.csv'
-    runIoThroughNupic(inputData, model, dataCenterName, plot)
+print "Anomaly scores have been written to", _OUTPUT_PATH
 
 if __name__ == '__main__':
-    print(DESCRIPTION)
-    plot = False
-    args = sys.argv[1:]
-    if '--plot' in args:
-        plot = True
-        print('ploting')
-    runModel(DATA_CENTER_NAME, plot=plot)
+    logging.basicConfig(level=logging.INFO)
 
+    # select feature vector
+    dataCleanser(_INPUT_FILE)
+
+    # split data
+    dataSplit()
+
+    # create models and process all data sequentially
+    createModelAndProcess()
+
+    # run harddrive anomaly
+    runHarddriveAnomaly(plot=True)
