@@ -21,7 +21,7 @@ Not required
 #####LifeGuard Runner :
 lifeguard_runner.py is used to create and save model for both good and bad drives, it also runs the test data through models to get anomaly score.
 
-######Training result:
+#####Training result:
 In progress
 
 
