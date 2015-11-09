@@ -10,25 +10,18 @@ J. F. Murray, G. F. Hughes, K. Kreutz-Delgado
 Journal of Machine Learning Research, vol 6, 2005.
 
 ##### Dataset : 
-data/hardrive.csv lists 63 smart features collected from 300+ hardrives. After feature analysis 25 features which are most relevant are selected based on ZScore.
+data/hardrive.csv lists 63 smart features collected from 300+ hardrives. After feature analysis 25 features which are most relevant are selected based on ZScore. With further analysis, 11 most effective features are retained for anomaly detection.
 
 #####Type of Data :
 Each line in the data section contains the data from one SMART read (2 hour time frame), with the last column either 1 (for drives that eventually failed) or 0 (for drives that were good throughout testing).
 
-Predictive column 'class' is changed to 'String' as nupic attributes type doesn't support 'bool'.
-
 #####Swarming :
-To select best model Swarming is done using harddrive-smart-data-pp-to-train.csv, swarm_description describes the params for swarming. swarm.py is run to created the model_params. For debug purpose swarm is run under small mode.
+Not required
 
 #####LifeGuard Runner :
-lifeguard_runner.py is used to create and save model.
+lifeguard_runner.py is used to create and save model for both good and bad drives, it also runs the test data through models to get anomaly score.
 
-######Order of data used for training:
-
-harddrive-smart-data-pp-to-train.csv (thrice)
-
-harddrive-smart-data-pp-shuffle.csv  (twice)
-
-calculated accuracy of prediction - poor
+#####Training result:
+In progress
 
 
